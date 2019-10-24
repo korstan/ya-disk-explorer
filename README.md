@@ -1,11 +1,11 @@
 # ya-disk-explorer
 
 ## Guide
-Добавь в /src файл ".env.local" со следующим содержимым (токен в кавычках):
+Add file named '.env.local' to /src directory. It should contain the following code :
 ```
-VUE_APP_CLIENT_ID=""
+VUE_APP_CLIENT_ID="[token]" # put token into brackets
 ```
-Чтобы локально запустить сервер с приложением введи команды в корневой папке проекта
+To run app locally run commands below
 ``` 
 npm install
 npm run serve
